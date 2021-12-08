@@ -1,0 +1,100 @@
+body
+{
+    background-image: url(Images/background.jpeg);
+    background-size: contain;
+    font-family: Times, Times New Roman, serif;
+    width: 1300px;
+    margin: auto;
+    height: 100vh;
+}
+
+#navigacija
+{
+    float: left;
+    background-color: rgba(200, 200, 200, 0.9);
+    padding: 20px;
+    width: 300px;
+    position: fixed;
+    height: 100%;
+}
+#sadrzaj
+{
+    float: right;
+    background-color: rgba(200, 200, 200, 0.9);
+    padding: 20px;
+    margin: 15px;
+    width: 880px;
+    border-radius: 15px;
+    height: 100%;
+    overflow-y: auto;
+}
+#nav
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    justify-content: center;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    border: solid 10px;
+    border-radius: 20px;
+    border-style: double;
+}
+a:hover
+{
+    background-color: #0A0A0A;
+    
+}
+a:active
+{
+    background-color: #9e1e10;
+}
+
+
+
+
+
+figure
+{
+    float: left;
+}
+p
+{
+    padding: 20px;
+    font-size: x-large;
+}
+#university
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tabela
+{
+    
+    border:solid 7px;
+    border-color: #042a33;
+    border-collapse: collapse;
+    font-size: larger;
+}
+h1
+{
+    text-align: center;
+    border:inset thick;
+    padding: 10px;
+    border-radius: 50px;
+}
+td
+{
+    border:5px solid #042a33;
+}
+h3
+{
+    font-size: x-large;
+}
